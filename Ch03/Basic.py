@@ -1,5 +1,5 @@
+import sys
 x = "Hello"
-y = "Wecome"
-Print(x, y)
-
+y = "and Welcome to a basice python program"
+print(x, sys.argv[1] + y)
 input()
