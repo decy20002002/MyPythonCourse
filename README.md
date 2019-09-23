@@ -1,2 +1,2 @@
-# MyPythonCourse Phu Tran
-
+# MyPythonCourse
+Phu Tran
