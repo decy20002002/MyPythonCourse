@@ -37,3 +37,18 @@ None the less since it was his
 They ate it - and that's what haggis is 
 '''
 print(haggis_poem)
+
+
+name = 'Francois'
+greeting = f'Bonjour {name}!'
+print(greeting)
+
+
+print("NAME AGE HANDEDNESS SCORE")
+print("Bob 38 L 54.123")
+print("Nancy 28 R 71.12")
+
+
+print("\tNAME\tAGE\tHANDEDNESS\tSCORE")
+print("\tBob\t38\tL\t\t54.123")
+print("\tNancy\t28\tR\t\t71.12")
