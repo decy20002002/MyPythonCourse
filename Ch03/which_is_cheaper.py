@@ -5,7 +5,7 @@ product1_price = input("What is the price of product 1? ")
 
 price1 = float(product1_price)
 
-print('Your product price is ', price1)
+# print('Your product price is ', price1)
 print('Product 1 is an integer:' , price1.is_integer)
 
 # input()
