@@ -6,7 +6,7 @@ day_string = input("input the day of the month (e.g. 19): ")
 month = int(month_string)
 day = int(day_string)
 
-if month < 12 and month > 9:
+if month < 13 and month > 9:
     	season = 'winter'
 elif month == 4 or month==5 or month==6:
 	season = 'spring'
