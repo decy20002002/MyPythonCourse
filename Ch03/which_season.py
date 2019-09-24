@@ -27,3 +27,7 @@ elif (month == 12) and (day > 20):
 	season = 'winter'
 
 print("Season is",season)
+
+user_favorite_month_string = input("What is your favorite month?")
+if (user_favorite_month_string == season):
+	print("Congrats!")
