@@ -13,6 +13,7 @@ print('Price per ounce of product 1:')
 print(price_per_ounce1)
 print('Price per ounce of product 2:')
 print(price_per_ounce2)
+print(price_per_ounce1 < price_per_ounce2)
 # print('Product 1 is an integer:' , price1.is_integer())
 
 # input()
