@@ -15,4 +15,4 @@ elif month ==7 or month==8 or month==9:
 else:
 	season = 'autumn'
 
-print("Season is ", season)
+print("Season is", season)
