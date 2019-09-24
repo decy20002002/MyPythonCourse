@@ -28,6 +28,10 @@ elif (month == 12) and (day > 20):
 
 print("Season is",season)
 
-user_favorite_month_string = input("What is your favorite month?")
+user_favorite_month_string = input("What is your favorite month? ")
 if (user_favorite_month_string == season):
 	print("Congrats!")
+elif (user_favorite_month_string != season):
+	print ("My favorite month is", season)
+else:
+	print ("Your favorite month is", user_favorite_month_string)
