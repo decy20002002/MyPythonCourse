@@ -16,8 +16,8 @@ product2_final_price = price2 - (price2 * discount2 / 100)
 # print(price_per_ounce1 < price_per_ounce2)
 
 print('Original Price of Product 1:' , price1)
-print('New Price of Product 1 after ' + discount1 + ' % discount:' , product1_final_price)
+print('New Price of Product 1 after ' + str(discount1) + ' % discount:' , product1_final_price)
 print('Original Price of Product 2:' , price2)
-print('New Price of Product 2 after ' + discount2 + ' % discount:' , product2_final_price)
+print('New Price of Product 2 after ' + str(discount2) + ' % discount:' , product2_final_price)
 
 # input()
