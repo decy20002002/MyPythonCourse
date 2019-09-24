@@ -14,6 +14,8 @@ print(price_per_ounce1)
 print('Price per ounce of product 2:')
 print(price_per_ounce2)
 print(price_per_ounce1 < price_per_ounce2)
+if False
+print(str"Good!")
 # print('Product 1 is an integer:' , price1.is_integer())
 
 # input()
