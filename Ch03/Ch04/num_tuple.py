@@ -1,6 +1,5 @@
-
-#some_nums = [11,6,4,2,22,54,12,8,-1]
-some_nums = [11,11,11,11,11,54,11,11,11]
+some_nums = (2,6,4,2,22,54,12,8,-1)
+#some_nums = [11,11,11,11,11,54,11,11,11]
 #for x in range(9):
 #    some_nums.append(input('Enter numbers: '))
 
