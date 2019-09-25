@@ -29,7 +29,7 @@ print(welcome_message)
 good_year = False
 
 movie = input("What is your favorite movie? ")
-movie = movie.strip() #strip out left spaces 
+movie = movie.strip() #strip out any leading and trailing spaces 
 
 while not good_year:
     year = input("What year is your favorite movie from? ")
