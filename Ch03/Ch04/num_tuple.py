@@ -19,6 +19,6 @@ print('The highest number is ', highest_num)
 for x in range(len(some_nums) - 1):
     print(x)
     print(some_nums)
-    if (x%2==0):
-        some_nums[x] = 100
-print(some_nums)
+    # if (x%2==0):
+        # some_nums[x] = 100
+# print(some_nums)
