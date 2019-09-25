@@ -33,13 +33,16 @@ movie = movie.strip() #strip out any leading and trailing spaces
 
 while not good_year:
     year = input("What year is your favorite movie from? ")
-    
+
     if(year.isdecimal()):
-        good_year = True
-        message = "In {}, the movie {} debuted"
-        #print(str(movie))
-        #print("Your favorite movie from", str(year))
-        print(movie)
-        print(message.format(year, movie))
+        #good_year = True 
+        year = int(year)
+        if year >= 1900 and year <= 2019:
+            good_year = True
+            message = "In {}, the movie {} debuted"
+            print(movie)
+            print(message.format(year, movie))
+        else:
+            print('Please enter a valid year between 1900-2019')
     else:
-        print('Please enter a valid year')
+        print('Please enter a valid year between 1900-2019')
