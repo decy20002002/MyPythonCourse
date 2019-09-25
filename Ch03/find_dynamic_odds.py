@@ -10,6 +10,6 @@ else:
 while x < counter:
     # if (counter %2 != 0):
     #    print(counter, end=" ")
-x+=1
-print(x)
+    x+=1
+    print(x)
 # print('\n', 'Finished looping')
