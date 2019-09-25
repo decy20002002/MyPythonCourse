@@ -4,11 +4,11 @@ limit = input('Please set the limit: ')
 if limit == "":
     counter = 4
 else:
-    counter == int(limit):
+    counter == int(limit)
 
-while True:
-    if (counter %2 != 0):
-        print(counter, end=" ")
+while x = 0 < counter:
+    # if (counter %2 != 0):
+    #    print(counter, end=" ")
     counter+=1
-    
-print('\n', 'Finished looping')
+    print(counter)
+# print('\n', 'Finished looping')
