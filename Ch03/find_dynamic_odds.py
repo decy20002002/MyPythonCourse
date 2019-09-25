@@ -2,7 +2,7 @@
 counter = 0
 limit = input('Please set the limit: ')
 while True:
-    if limit == False:
+    if limit == "":
         counter = 4
     if counter == int(limit):
         break
