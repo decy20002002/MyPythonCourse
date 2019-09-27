@@ -1,6 +1,5 @@
-from fibo import print_fibonacci
+#import fibo module with a particular funcion
+from fibo import print_fibonacci, get_fibonacci
+
 print_fibonacci(22)
-
-
-from fibo import get_fibonacci
-get_fibonacci(33)
+print(get_fibonacci(33))
