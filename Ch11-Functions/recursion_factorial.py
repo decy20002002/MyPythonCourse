@@ -14,5 +14,5 @@ def calc_factorial(x, processed=""):
             processed = str(x)
         return (x * calc_factorial(x-1, processed))
 
-num = 0
+num = 5
 print("The factorial", num,"! is:", calc_factorial(num))
